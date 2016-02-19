@@ -1,0 +1,638 @@
+/* CSS designed by Robert M. Erickson      ++++++++++++++++++++++++++++++*/
+/* ===================  General Section  ==================================== */
+@import url('//Users/uvmaffiliate/Desktop/develop/blackboard/css/reset.css');
+#author:after{
+    content: "Robert M. Erickson";
+}
+
+* {
+    font-size: 12pt;
+    font-family: sans-serif;
+}
+
+/* +++++++++++++++++++++++   general elements  ++++++++++++++++++++++++++*/
+html, body {
+    height: 100%;
+}
+
+html{
+    background: #661CA9;
+}
+
+a{
+    border: .2em solid transparent;
+    padding: .5em;
+}
+
+a:hover {
+    border: .2em solid navy;
+    background-color: #d8dfea;
+}
+
+a[target="_blank"]{
+    text-decoration-color: red;
+}
+
+#mainContent a:hover{
+   padding: .5em
+}
+
+.activeLink a {
+    background-color: #fff;
+    border: thin solid black;
+    color: #000;
+}
+
+body {
+    width:95%;
+    margin: auto;
+    background:#fff;
+    opacity: 0.98;
+}
+
+h1, h2, h3 {
+    border-bottom: thin solid black;
+    display:block;
+    font-weight:bold;	
+/*    margin: 1em 0 .2em 0;
+    padding: 1em 0 .2em 0;
+*/    clear: both;
+}
+header h1{
+   margin: 0;
+}
+
+h1{
+    font-size:2em;
+}
+
+h2{
+    font-size:1.5em;
+}
+
+h3{
+    font-size:1.25em;
+}
+ol li, 
+ul li{
+    padding: .6em 0 .6em 0;
+}
+
+p{
+    padding-top: 1em;
+}
+
+
+.redDot{
+    background-color: #900;
+    color:#f0a0a0;
+    border-radius: 1em;
+}
+.greenDot{
+    background-color: #5c7659;
+    color: lightgreen;
+    border-radius: 1em;
+}
+.yellowDot{
+    background-color: #fff000;
+    color:#f0a0a0;
+    border-radius: 1em;
+}
+
+/* +++++++++++++++++ header section ++++++++++++++++++++++++++++++++++++++++++*/
+#topbox{
+    background: none repeat scroll 0 0 #eeeeee;
+    border: 1px solid #000000;
+    border-radius: 0 0 15px 15px;
+    color: #666666;
+    left: 0;
+    margin: auto 2.5%;
+ /*   padding: 1em; */
+    position: fixed;
+    top: 0;
+    width: 93%;
+    z-index: 12;  
+}
+
+#studentInfo{
+    padding-right: 5em;
+    position: fixed;
+    right: 5em;
+    top: 0;
+}
+#studentInfo span{
+    display: block;
+}
+
+.classtitle {
+    padding-right: 10em;
+}
+
+#specialLink{
+    position: fixed;
+    right: 0;
+    top: 1em;
+    z-index: 100;
+}
+/* +++++++++++++++++++++++   navigation styles ++++++++++++++++++++++++++++*/
+nav{
+    padding-right: 20em; /* so tool menu does not overlap */
+}
+nav ol li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 1em;
+    width: 10em;
+    margin-left: -3em;
+float: left;
+}
+
+
+/* +++++++++++++++++++++++   image styles  ++++++++++++++++++++++++++++++*/
+img{
+    /* will shrink to container or orginal size if smaller than container */ 
+    max-width: 100%; 
+}
+
+.small{
+    width: 150px;
+}
+
+.medium{
+    width: 300px;
+}
+
+.fifty{
+    width: 50%;
+}
+
+.onehundred{
+    width: 95%; /* i was losing the margin area at 100% */
+}
+
+figure{
+   border: thin solid darkslategray;
+    padding: .5em;
+    text-align: center; 
+}
+figure.img-left{ 
+    float: left; 
+    margin-right: 1em;
+}
+
+figure.img-right{  
+    float: right;  
+    margin-left: 1em 0 1em 1em;
+}
+
+figcaption{
+    text-align: center;
+    color: #839E99;
+    font-style: italic; 
+}
+
+/* +++++++++++++++++++++++   syllabus pages ++++++++++++++++++++++++++++++*/
+#syllabus table{
+    margin: auto;
+}
+
+.classTools li{
+    padding-bottom: 1em;
+}
+
+#syllabus table tr:first-child td:last-child{
+    vertical-align: middle;
+}
+
+/* +++++++++++++++++++++++   general content layout +++++++++++++++++++++*/
+
+
+article#mainContent{
+    background-color: #fefefe;
+    border: 2px solid #fefefe;
+    border-radius: 0.5em;
+    margin-top: 15em;
+    overflow: auto;
+    padding: 2em 2em 50px;
+}
+
+body #mainContent .highlight{
+    background-color: #d8dfea;
+}
+
+form#chooseAssignment{
+    text-align: center;
+}
+
+table{
+    margin: auto;
+}
+
+.highlight-red{
+    background-color: #ffabab;
+}
+
+.highlightRed{ 
+    background-color: #cc0033;
+    color: #ffffff;
+    font-size: inherit;
+}
+
+.center{
+    text-align: center !important;
+}
+
+.left{
+    text-align: left !important;
+    padding-right: .5em;
+}
+
+.right{
+    text-align: right !important;
+    padding-left: .5em;
+}
+
+.hanging{
+    padding-left: 5em ;
+    text-indent: -5em ;
+}
+
+.printonly{
+    display:none;
+}
+
+#mainContent table tr td,  #mainContent table tr th{
+    padding: .5em;
+    border: thin dashed #0a0a0a;
+}
+
+#mainContent table tr th{
+    background-color: #eeeeee;
+    border: .1em solid #000;
+    font-family: Arial,Verdana,Geneva,Helvetica,sens-serif;
+
+    text-align: center;    
+}
+
+/* +++++++++++++++++++++++   Calendar pages +++++++++++++++++++++++++++++*/
+.Absent{
+    color: #ffbfbf !important;
+    background: #aa0011 !important;
+    text-align: center;	
+}
+
+.assignment{
+    color: #cc4444;
+    margin:0;
+    padding: 0.125em 0.25em 0 0.25em;
+    text-align:center; 	 
+}
+
+.callInSick{
+    float: left;
+    margin: 0;
+}
+
+div.date{
+    float: right; 
+    text-align:center; 
+    border: 1px solid gray; 
+    border-width: 0 0 1px 1px; 
+    padding: 0.125em 0.25em 0 0.25em; 
+    margin:0;  
+    background: #F3F3F3; 
+    width: 2em;
+}
+
+
+.Excused{
+    color: #aa0011 !important;
+    background: #ffadad !important;
+    text-align: center;	
+}
+
+#fullCalendar{
+    float:right;
+    font-size: small;
+}
+
+.labComplete{
+    color: #24B300 !important;
+    background: #ffcfcf !important;
+    text-align: center;	
+}
+
+.FreeDay{
+    color: #24B300 !important;
+    background: #aacfcf !important;
+    text-align: center;	
+}
+
+.Late{
+    color: #24B300 !important;
+    background: #ddffdf !important;
+    text-align: center;	
+}
+
+.Personal{
+    color: #aa0011 !important;
+    background: #ffcfcf !important;
+    text-align: center;	
+}
+
+.Present{
+    color: #24B300 !important;
+    background: #CCFFBF !important;
+    text-align: center;
+}
+
+.presentation{
+    border: dashed medium #ff0000 !important;
+}
+.Sick{
+    color: #aa0011 !important;
+    background: #ffadad !important;
+    text-align: center;	
+}
+
+.submitted{
+    border: thin solid green;
+}
+
+.notSubmitted{
+    border:thin solid red;
+}
+.TOPIC { 
+    color: #4444CC; 
+    text-align:center; 
+    padding: 0.125em 0.25em 0 0; 
+    margin:0;  
+}
+
+.VACA {
+    background-color: rgba(200, 200, 200, 0.8);
+    font-style: italic;
+}
+
+.INFO{
+    background-color: rgba(200, 200, 200, 0.4);
+    font-style: italic;
+}
+#calendar .assignment{
+    background-color: rgba(255, 0, 0, 0.1);
+    border: thin dotted red;
+}
+
+#calendar .lecture{
+    background-color: rgba(0, 0, 255, 0.1);
+    border: thin dotted red;
+}
+
+#schedule tr:nth-child(odd){
+    background-color: #eeeeee;
+}
+
+/* remove the padding around the a putting the padding on
+   the div. it was causing a first line indent otherwise */
+#schedule tr div a{
+    padding: 0;
+}
+
+#schedule tr div{
+    padding: 0.5em;
+}
+
+/* above two sets of rules go together */
+
+#schedule tr:hover{
+    border-top: .2em solid #a4a4a4;
+    border-bottom: .2em solid #a4a4a4;
+}
+#schedule td.webreview ol li{
+    list-style-type: none;
+}
+#mainContent .atoday{
+    border: solid medium #661ca9;
+}
+
+/* resource page */
+#otherMedia ol li img {
+    float: left;
+    height: 1em;
+    margin-top: 0.5em;
+    padding-right: 0.2em;
+}
+
+/* +++++++++++++++++++++++   grading pages ++++++++++++++++++++++++++++++*/
+#grades p, #grades .p{
+    border: thin solid black;
+    border-radius: 0.7em;
+    padding: .8em 0 .8em .8em;
+}
+
+#grades p a{
+    text-decoration: none;
+}
+
+#grades .avggrade {
+    background-color: none;
+    font-size: small;
+    color: #ffcccc;
+}
+
+#grades .label{
+    display: inline-block;
+    width: 50%; 
+}
+#grades input#hypoGrade{
+    width: 3em;
+}
+#grades .grade{
+    width: 40%;
+    padding-left: 3em;
+}
+
+#grades .noWidth{
+    width: 1em !important;
+}
+
+
+#grades .comments{
+    display:none;
+}
+
+#grades .hypo {
+    background-color: lightgreen !important;
+    border-radius: 0.3em;
+    padding-right: 3em;
+}
+
+.avggrade {
+    color: #ffcccc;
+    font-size: small;
+}
+
+.failing {
+    background-color: red !important;
+}
+
+.hypo {
+    background-color: lightgreen !important;
+}
+.percent{
+    float: right;
+    padding-left: 0.25em;
+}
+
+.GradesReleased {
+    background-color: #ccffcc; 
+}
+
+.GradesReleased .highlight {
+    color: #000000;
+}
+
+.GradingStarted {
+    background-color: #fff000; 
+    color: #000000;
+}
+
+.NotGraded{
+    background-color: #ffcccc;
+}
+
+.Graded{
+    background-color: #ccffcc;
+}
+/* +++++++++++++++++++++++   assignment pages  ++++++++++++++++++++++++++++++*/
+#assignments ol li{
+    list-style-type: none;
+}
+.displayDate{
+    display: inline-block;
+    width: 10em;
+    text-align: right;
+}
+
+#assignments #mainContent ol li{
+   margin-left: 3em;
+   text-indent: -3em;
+}
+
+#assignments #mainContent ol li .displayDate{
+   width: auto;
+}
+
+.reading{
+    /*
+    not responsive enough for me. like nothing better
+    display: inline-block;
+    width: 10em;
+    text-align: left;
+    height: 100%;*/
+}
+
+/* +++++++++++++++++++++++   lecture pages     ++++++++++++++++++++++++++++++*/
+#lectures ol li{
+    list-style-type: none;
+}
+#lectures #mainContent ol li{
+   margin-left: 3em;
+   text-indent: -3em;
+}
+
+#lectures #mainContent ol li .displayDate{
+   width: auto;
+}
+
+/* +++++++++++++++++++++++   submit assignment page , call in sick page   ++++++++++++++++++++++*/
+#submitAssignment span.steps,#sick span.steps {
+    background-color: #839e99;
+    border-radius: 1em;
+    float: left;
+    font-size: 1.5em;
+    margin-top: -1em;
+    padding: 0.5em;
+}
+
+div.step, legend.step{
+    border: thin solid #839e99;
+    border-radius: 1.5em;
+    display: block;
+    margin-bottom: 1em;
+    padding: 2.5em;
+}
+
+#submitAssignment fieldset, #sick fieldset{
+    border: none;
+}
+
+#submitAssignment input, #sick input {
+    margin-left: 0.6em;
+}
+/* sick page */
+#sick aside{
+    float: left;
+    width: 40%;
+    margin-right: 7%;
+}
+/* +++++++++++++++++++++++   resource pages    ++++++++++++++++++++++++++++++*/
+#otherMedia ol li:hover {
+    background-color: #839E99;
+}
+
+/* +++++++++++++++++++++++   video pages       ++++++++++++++++++++++++++++++*/
+#vid{
+    max-width: 100%;
+}
+
+/* +++++++++++++++++++++++   misc              ++++++++++++++++++++++++++++++*/
+#upcoming ol li{
+        list-style-type: none;
+}
+
+.noticeMe{
+    background-color: rgba(255,0,0,.8);
+}
+
+#errors ol li{
+    background-color: rgba(255,0,0,.2);
+}
+
+
+/*************************    different size media    ************************/
+@media screen and (max-width: 899px){
+    body{
+        background-color: green;
+        color: #2C2C2C;
+        font: normal 100% Cambria, Georgia, serif;
+        margin: 0 auto;
+    }
+    /* sick page */
+#sick aside{
+    clear: both;
+    width: 100%;
+    margin-right: auto;
+}
+}
+
+@media only screen and (max-width: 500px) {
+
+     #topbox, #studentInfo{
+          position: relative;
+     }
+     #studentInfo{
+      right: auto;
+     }
+     article#mainContent{
+       clear: both;
+       margin-top: 0;
+     }
+     nav#mainMenu{
+          background: #eeeeee none repeat scroll 0 0;
+     }
+     nav#mainMenu ol li{
+         display: block;
+         float: none;
+     }
+}
