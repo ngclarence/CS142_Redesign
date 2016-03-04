@@ -1,0 +1,79 @@
+#topbox {
+    display: inline-block;
+    background-color: #8BB138;
+    width: 100%;
+    font-family: helvetica;
+}
+
+h1#classtitle{
+    color: #2f5e39;
+}
+
+h1#classtitle a {
+    color: #2f5e39;
+    text-decoration: none;
+    padding-left: 50px;
+}
+nav#mainMenu li {
+    display: inline;
+    width: 100%;
+    color: white;
+    padding-left: 50px;
+}
+
+nav#mainMenu {
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 100%;
+}
+
+#mainMenu a {
+    text-decoration: none;
+    width: 100%;
+    color: white;
+}
+
+aside#studentInfo {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 14px;
+}
+
+figure.img-right.small {
+    position: relative;
+    float: right;
+    right: 0;
+    size: 50%;
+}
+
+body {
+    font: helvetica;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+
+<!--Assignments-->
+
+#mainContent h2 {
+    text-align: center;
+    font-family: helvetica;
+}
+
+ol.AssignmentsLink {
+    font-family: helvetica;
+    text-align: center;
+    list-style-type: none;
+}
+
+li.title.summary {
+    padding 15px;
+}
+
+
+<!--Schedule-->
+
+article#mainContent {
+    margin: 50px;
+}
