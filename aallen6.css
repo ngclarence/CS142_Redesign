@@ -1,18 +1,39 @@
 #topbox {
     display: inline-block;
-    background-color: #8BB138;
+    background-color: #535353;
     width: 100%;
     font-family: helvetica;
+    box-shadow: 10px 10px 10px #888888;
 }
 
 h1#classtitle{
-    color: #2f5e39;
+    color: white;
+    font-size: 15px;
+    font-family: helvetica;
+    padding-left: 10px;
 }
 
 h1#classtitle a {
-    color: #2f5e39;
-    text-decoration: none;
-    padding-left: 50px;
+    color: white;
+}
+
+h1 {
+    font-family: helvetica;
+    padding-left: 25px;
+}
+
+a {
+    color: black;
+}
+
+p {
+    font-family: helvetica;
+}
+
+span.greenDot {
+    float: left;
+    padding-right: 10px;
+    color: #535353;
 }
 nav#mainMenu li {
     display: inline;
@@ -51,24 +72,37 @@ body {
     font: helvetica;
     margin: 0px;
     overflow-x: hidden;
+    background-color: #efede3;
 }
 
 
 <!--Assignments-->
 
-#mainContent h2 {
-    text-align: center;
-    font-family: helvetica;
+#assignments {
+    background-color: #cd9a00;
 }
 
 ol.AssignmentsLink {
     font-family: helvetica;
-    text-align: center;
-    list-style-type: none;
+}
+
+h2 {
+    font-family: helvetica;
+    padding-left: 25px;
 }
 
 li.title.summary {
-    padding 15px;
+    font-family: helvetica;
+    padding: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom-style: ridge;
+}
+
+<!--Assignments-->
+
+li.title.summary {
+    font-family: helvetica;
 }
 
 
@@ -76,4 +110,32 @@ li.title.summary {
 
 article#mainContent {
     margin: 50px;
+}
+
+table#vcalendar {
+    font-family: helvetica;
+    padding: 25px;
+    padding-top: 5px;
+}
+
+tr td {
+    border-style: ridge;
+}
+
+
+<!--Syllabus-->
+
+article p {
+    padding: 25px;
+}
+
+footer {
+    padding-left: 15px;
+}
+
+
+<!--Sick-->
+
+aside.attendanceRecord {
+    margin: 25px;
 }
