@@ -99,14 +99,14 @@ li.title.summary {
     border-bottom-style: ridge;
 }
 
-<!--Assignments-->
+//Assignments
 
 li.title.summary {
     font-family: helvetica;
 }
 
 
-<!--Schedule-->
+//Schedule
 table{
     border-collapse: collapse;
 }
@@ -127,7 +127,7 @@ tr td {
 }
 
 
-<!--Syllabus-->
+//Syllabus
 
 article p {
     padding: 25px;
@@ -138,7 +138,7 @@ footer {
 }
 
 
-<!--Sick-->
+//Sick
 
 aside.attendanceRecord {
     margin: 25px;
