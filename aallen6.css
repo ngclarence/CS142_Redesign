@@ -143,3 +143,23 @@ footer {
 aside.attendanceRecord {
     margin: 25px;
 }
+
+/*Resources*/
+
+li.link {
+    padding: 25px;
+    padding-bottom: 40px;
+    padding-top: 45px;
+}
+
+
+li.video {
+    padding: 25px;
+    padding-bottom: 40px;
+    padding-top: 45px;
+}
+aside#otherMedia {
+    padding-left: 25px;
+    font-family: helvetica;
+    -webkit-columns: 300px 2;
+}
