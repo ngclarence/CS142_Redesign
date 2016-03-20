@@ -17,9 +17,10 @@ h1#classtitle a {
     color: white;
 }
 
-h1 {
+h1{
     font-family: helvetica;
-    padding-left: 25px;
+    /*padding-left: 25px; */
+    
 }
 
 a {
@@ -76,7 +77,7 @@ body {
 }
 
 
-//Assignments
+/*Assignments*/
 
 #assignments {
     background-color: #cd9a00;
@@ -99,14 +100,14 @@ li.title.summary {
     border-bottom-style: ridge;
 }
 
-//Assignments
+/*Assignments*/
 
 li.title.summary {
     font-family: helvetica;
 }
 
 
-//Schedule
+/*Schedule*/
 table{
     border-collapse: collapse;
 }
@@ -127,39 +128,34 @@ tr td {
 }
 
 
-//Syllabus
+/*Syllabus*/
 
+p{
+    padding-left:2%;
+}
 article p {
     padding: 25px;
 }
+h1, h2, h3{
+    font-family:helvetica;
+    padding-left:1%;
+}
+
+table#grading{
+    padding-left:2%;
+}
+table{
+    padding-left:2%;
+}
 
 footer {
-    padding-left: 15px;
+    /*padding-left: 15px;*/
+    font-weight:bold;
 }
 
 
-//Sick
+/*Sick*/
 
 aside.attendanceRecord {
     margin: 25px;
-}
-
-/*Resources*/
-
-li.link {
-    padding: 25px;
-    padding-bottom: 40px;
-    padding-top: 45px;
-}
-
-
-li.video {
-    padding: 25px;
-    padding-bottom: 40px;
-    padding-top: 45px;
-}
-aside#otherMedia {
-    padding-left: 25px;
-    font-family: helvetica;
-    -webkit-columns: 300px 2;
 }
