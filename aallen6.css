@@ -65,8 +65,8 @@ aside#studentInfo {
 figure.img-right.small {
     position: relative;
     float: right;
-    right: 0;
-    size: 50%;
+    width:45%;
+    height:50%;
 }
 
 body {
@@ -148,7 +148,6 @@ footer {
     /*padding-left: 15px;*/
     font-weight:bold;
 }
-
 
 /*Sick*/
 
