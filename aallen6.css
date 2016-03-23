@@ -173,5 +173,11 @@ li.video {
 aside#otherMedia {
     padding-left: 25px;
     font-family: helvetica;
-    -webkit-columns: 300px 2;
+    -webkit-columns: 300px 2; /* we have to use firefox*/
 }
+
+/* This will get rid of the menu that Bob's screen has */
+#.specialLink{
+    display:none;
+}
+
