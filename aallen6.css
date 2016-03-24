@@ -162,6 +162,10 @@ aside.attendanceRecord {
     margin: 25px;
 }
 
+form#callInSick {
+    width: 50%;
+}
+
 /*Resources*/
 
 li.link {
