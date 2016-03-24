@@ -1,0 +1,29 @@
+a{
+    color:black;
+}
+
+/*Schedule*/
+table{
+    border-collapse: collapse;
+}
+   
+article#mainContent {
+    margin: 50px;
+}
+
+table#vcalendar {
+    font-family: helvetica;
+    padding: 25px;
+    padding-top: 5px;
+}
+
+tr td {
+    border-style: ridge;
+}
+
+img{
+    display:none;
+}
+figcaption{
+    display:none;
+}
