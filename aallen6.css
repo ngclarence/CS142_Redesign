@@ -194,3 +194,12 @@ aside#otherMedia {
     display:none;
 }
 
+/* Grades */
+
+span.hypoGrade.grade{
+    padding-left:5%;
+}
+
+div#possibleGrade{
+    padding-left:2%;
+}
