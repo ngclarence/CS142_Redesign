@@ -107,7 +107,7 @@ li.title.summary {
 table{
     border-collapse: collapse;
 }
-tr:hover{background-color:#f5f5f5}
+#vcalendar tr:hover{background-color:#f5f5f5}
    
 article#mainContent {
     margin: 50px;
