@@ -149,6 +149,13 @@ footer {
     font-weight:bold;
 }
 
+figcaption{
+    font-weight:bold;
+    font-style:italic;
+    font-size:150%;
+    text-align:center;
+}
+
 /*Sick*/
 
 aside.attendanceRecord {
