@@ -96,12 +96,6 @@ li.title.summary {
     border-bottom-style: ridge;
 }
 
-/*Assignments*/
-
-li.title.summary {
-    font-family: helvetica;
-}
-
 
 /*Schedule*/
 table{
@@ -137,8 +131,23 @@ h1, h2, h3{
     padding-left:1%;
 }
 
+#syllabus #mainContent h1 {
+    border-bottom-style: ridge;
+}
+
+#syllabus h2 {
+    border-bottom-style: ridge;
+}
+
+#syllabus th {
+    padding-top: 15px;
+}
+
+div.flexbox-column-three {
+    margin-left: 25px;
+}
 table#grading{
-    padding-left:2%;
+    margin-left: 25px;
 }
 table{
     padding-left:2%;
@@ -158,14 +167,15 @@ figcaption{
 
 /*Sick*/
 
-aside.attendanceRecord {
-    margin: 25px;
-}
 
 form#callInSick {
     width: 50%;
+    margin-left: 25px;
 }
 
+aside.attendanceRecord table {
+    margin-left: 25px;
+}
 /*Resources*/
 
 li.link {
@@ -187,6 +197,12 @@ aside#otherMedia {
     column-count:2;           /* this will work for firefox */
     -moz-column-count:2;
     -webkit-column-count: 2;
+}
+
+/*Submit Assignment*/
+
+div.step {
+    margin-left: 25px;
 }
 
 /* This will get rid of the menu that Bob's screen has */
