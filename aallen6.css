@@ -155,6 +155,7 @@ table{
 footer {
     /*padding-left: 15px;*/
     font-weight:bold;
+    display:none;
 }
 
 figcaption{
