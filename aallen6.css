@@ -206,7 +206,7 @@ div.step {
 }
 
 /* This will get rid of the menu that Bob's screen has */
-.specialLink{
+#specialLink{
     display:none;
 }
 
