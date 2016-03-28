@@ -66,6 +66,7 @@ figure.img-right.small {
     position: relative;
     float: right;
     height:50%;
+   /* width:50%; */
 }
 
 body {
